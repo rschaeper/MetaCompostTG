@@ -1,0 +1,19 @@
+# nextflow/taxprofiler
+taxprofiler/.nextflow/
+taxprofiler/.nextflow.log*
+taxprofiler/work/
+taxprofiler/null/pipeline_info/
+taxprofiler/one_sample_test_results/
+
+# results
+one_sample_test_results/
+
+# raw data
+fastq/metatranscriptomics/*
+!fastq/metatranscriptomics/README.md
+
+# databases
+databases/motus/*
+!databases/motus/.gitkeep
+databases/kaiju/*
+!databases/kaiju/.gitkeep
