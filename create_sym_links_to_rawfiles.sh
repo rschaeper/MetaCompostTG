@@ -1,12 +1,14 @@
 #!/bin/bash
 
-mkdir -p fastq/metatranscriptomics
 mkdir -p fastq/metagenomics
+mkdir -p fastq/metatranscriptomics
 
+### Metagenomics Samples ###
 # NC
-ln -s /nfs_data/rschaeper_work/CompostMetaTG/raw/X208SC24106085-Z01-F002/01.RawData/NC/NC_MKDN260056143-1A_23NTLVLT4_L7_1.fq.gz fastq/metatranscriptomics/NC_L7_R1.fq.gz
-ln -s /nfs_data/rschaeper_work/CompostMetaTG/raw/X208SC24106085-Z01-F002/01.RawData/NC/NC_MKDN260056143-1A_23NTLVLT4_L7_2.fq.gz fastq/metatranscriptomics/NC_L7_R2.fq.gz
+ln -s /nfs_data/rschaeper_work/CompostMetaTG/raw/X208SC24106085-Z01-F002/01.RawData/NC/NC_MKDN260056143-1A_23NTLVLT4_L7_1.fq.gz fastq/metagenomics/NC_L7_R1.fq.gz
+ln -s /nfs_data/rschaeper_work/CompostMetaTG/raw/X208SC24106085-Z01-F002/01.RawData/NC/NC_MKDN260056143-1A_23NTLVLT4_L7_2.fq.gz fastq/metagenomics/NC_L7_R2.fq.gz
 
+### Metatranscriptomics Samples ###
 # CK_1
 ln -s /nfs_data/rschaeper_work/CompostMetaTG/raw/X208SC24114460-Z01-F001/01.RawData/CK_1/CK_1_MKDN260056156-1A_23NTTCLT4_L8_1.fq.gz fastq/metatranscriptomics/CK_1_L8_R1.fq.gz
 ln -s /nfs_data/rschaeper_work/CompostMetaTG/raw/X208SC24114460-Z01-F001/01.RawData/CK_1/CK_1_MKDN260056156-1A_23NTTCLT4_L8_2.fq.gz fastq/metatranscriptomics/CK_1_L8_R2.fq.gz
