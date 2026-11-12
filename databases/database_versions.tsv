@@ -1,0 +1,6 @@
+Database	Version	Source
+SILVA_SSU	144	https://www.arb-silva.de/
+SILVA_LSU	138.2	https://www.arb-silva.de/
+nr_euk	2023-05-10	https://bioinformatics-centre.github.io/kaiju/
+motus	3.1.0	https://www.motus-tool.org/
+eukdb	1.1	https://zenodo.org/records/23479662
