@@ -4,3 +4,6 @@ SILVA_LSU	138.2	https://www.arb-silva.de/
 nr_euk	2023-05-10	https://bioinformatics-centre.github.io/kaiju/
 motus	3.1.0	https://www.motus-tool.org/
 eukdb	1.1	https://zenodo.org/records/23479662
+eggnog	5.0.2	http://eggnog5.embl.de
+dbcan_db dbCAN3	https://pro.unl.edu/dbCAN2/ 
+kofam	2026-10-27	https://www.genome.jp/ftp/db/kofam/
